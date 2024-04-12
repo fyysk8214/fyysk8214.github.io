@@ -1,0 +1,33 @@
+body{
+   position: relative;
+}
+
+.bt{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 25%;
+  }
+  .bt{
+    width: 800px;
+    height: 450px;
+  }
+  .ti{
+   display: inline-block;
+   
+  }
+  .plu{
+    display: inline-block;
+    width: 5%;
+  }
+  .min{
+    display: inline-block;
+    width: 5%;
+  }
+  .container{
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+}

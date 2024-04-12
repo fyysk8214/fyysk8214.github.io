@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>게임 선택</title>
+ <style>
+    body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 200px;
+}
+
+button:hover {
+  background-color: #333;
+  color: #fff;
+}
+.image-container img {
+  margin: 0 15px; /* 좌우 간격을 25px로 조정합니다. */
+}
+
+ </style>
+</head>
+<body>
+<!--육목 참고영상 : https://youtu.be/bQf2EEb1poc?si=NFFwK-x_3fARk_Ab&t=380-->
+    <h1>게임을 선택해보세요!</h1>
+    <div class="image-container">
+    <img src="리소스/오목.png" alt="게임 이미지" width="200" height="200">
+    <img src="리소스/육목.png" alt="게임 이미지 2" width="200" height="200">
+    </div>
+    <p>아래 버튼을 클릭하여 게임을 선택할 수 있어요</p>
+  
+    <button onclick="location.href='오목.html'">오목으로 이동</button>
+    <button onclick="location.href='육목.html'">육목으로 이동</button>
+  
+</body>
+</html>
